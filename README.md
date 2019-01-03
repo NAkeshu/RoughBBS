@@ -12,11 +12,11 @@
 
 ![](http://imgs.qiniu.watashinoyumingdesu.cn/19-1-3/68259327.jpg)
 
-*就这玩意也能叫系统（？*
+*就这玩意也能叫系统（？）*
 
 ### 数据库E-R图
 
-![](http://imgs.qiniu.watashinoyumingdesu.cn/19-1-3/61104902.jpg)
+![](http://imgs.qiniu.watashinoyumingdesu.cn/19-1-3/22340969.jpg)
 
 ### 功能截图
 
