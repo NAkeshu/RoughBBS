@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="header.Master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <table style="width:100%; border-collapse:collapse" >
+                <tr class="header" style="border-style:none none solid;">
+                    <td>
+                        <asp:HyperLink ID="HyperLink1" NavigateUrl="~/Sections.aspx" runat="server">
+                            BBS啥的（大概这里应该放个logo？不懂）
+                        </asp:HyperLink>
+                    </td>
+                    <td>
+                        还没想好这里放什么，总之先写句话占个坑
+                    </td>
+                    <td id="userheader" style="text-align: right;">
+                        <asp:Panel ID="signPanel" runat="server">
+                            <asp:Button ID="signinBTN" runat="server" Text="登录" OnClick="signinBTN_Click" />
+                            <asp:Button ID="signupBTN" runat="server" Text="注册" OnClick="signupBTN_Click" />
+                        </asp:Panel>
+                    </td>
+                </tr>
+            </table>
+            
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
